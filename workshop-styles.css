@@ -1,10 +1,13 @@
 /* App Styles*/
 
-.Container {
-    margin-top: 8.5%;
+nav .listItem, footer .listItem {
+    display: inline-block;
+    height: auto;
+    margin-right: 2%;
+    cursor: pointer;
     padding: 0.5%;
-    /* border: 1px solid purple; */
-    margin-bottom: 0.1%;
+    margin: 0.1%;
+    vertical-align: top;
 }
 
 /* ------------------------------------------------------------------------------- */

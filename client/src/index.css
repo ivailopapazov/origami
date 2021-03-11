@@ -6,12 +6,6 @@
     font-family: 'Indie- Flower', cursive;
 }
 
-
-nav .listItem a {
-    color: white;
-    text-decoration: none;
-}
-
 nav .listItem, footer .listItem {
     display: inline-block;
     height: auto;

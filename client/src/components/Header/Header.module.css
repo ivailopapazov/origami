@@ -1,0 +1,17 @@
+.navigation {
+    width: 100%;
+    height: 14vh;
+    background-color: #234465;
+    color: white;
+    position: fixed;
+    top: 0;
+    border-bottom: 2px solid #ffa000;
+    border-top: 2px solid #ffa000;
+}
+
+.container {
+    margin-top: 8.5%;
+    padding: 0.5%;
+    /* border: 1px solid purple; */
+    margin-bottom: 0.1%;
+}
