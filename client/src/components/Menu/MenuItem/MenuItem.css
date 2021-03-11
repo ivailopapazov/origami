@@ -25,3 +25,7 @@
     border-bottom: 2px solid #234465;
     color: #ffa000;
 }
+
+.menu-item-selected {
+    background-color: lightgray;
+}

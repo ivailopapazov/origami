@@ -62,33 +62,6 @@ footer .listItem:hover {
     font-weight: bold;
 }
 
-aside .listItem {
-    display: block;
-    width: 98%;
-    border-left: 2px solid #234465;
-    border-right: 2px solid #234465;
-    margin-bottom: 11%;
-    height: 5vh;
-    text-align: center;
-}
-
-aside .listItem a {
-    color: #234465;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 5%;
-    height: 60%;
-    display: block;
-}
-
-aside .listItem:hover {
-    border-left: none;
-    border-right: none;
-    font-weight: bold;
-    border-top: 2px solid #234465;
-    border-bottom: 2px solid #234465;
-    color: #ffa000;
-}
 
 /* Link Styles */
 
@@ -96,35 +69,12 @@ aside .listItem:hover {
 
 /* Aside Styles */
 
-.Aside {
-    display: inline-block;
-    width: 15%;
-    margin-right: 1%;
-    height: 89.5vh;
-    /* border:1px solid red; */
-    vertical-align: top;
-}
 
 /* Aside Styles */
 
 /* ------------------------------------------------------------------------------- */
 
 /* Main Styles */
-
-.Main {
-    display: inline-block;
-    width: 83%;
-    height: auto;
-    /* border:1px solid blue; */
-    margin-bottom: 5%;
-}
-
-h1 {
-    text-align: center;
-    color: #234465;
-    text-decoration: underline;
-    margin-bottom: 2%;
-}
 
 /* Main Styles */
 
@@ -143,45 +93,6 @@ h1 {
 /* ------------------------------------------------------------------------------- */
 
 /* Post Styles */
-
-.Post {
-    width: 100%;
-    height: auto;
-    border: 1px solid #234465;
-    margin-bottom: 3%;
-    border-radius: 4px;
-}
-
-.description {
-    word-wrap: break-word;
-    padding: 0.5%;
-    font-style: italic;
-    /* border:1px solid blue; */
-    margin-bottom: 0.5%;
-    width: 95%;
-    display: inline-block;
-    vertical-align: top;
-    ;
-}
-
-.Post div {
-    /* border:1px solid red; */
-    height: auto;
-    text-align: right;
-    margin-bottom: 0.5%;
-}
-
-.Post div span {
-    text-decoration: underline;
-    text-align: right;
-    /* border:1px solid green; */
-    padding-right: 1%;
-}
-
-.Post img {
-    width: 32px;
-    height: 32px;
-}
 
 /* Post Styles */
 
