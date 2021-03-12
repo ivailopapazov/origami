@@ -1,0 +1,35 @@
+/* Footer List Item Styles */
+
+.footerListItem a {
+    color: #234465;
+    text-decoration: none;
+}
+
+.footerListItem {
+    display: inline-block;
+    height: auto;
+    margin-right: 2%;
+    cursor: pointer;
+    padding: 0.5%;
+    margin: 0.1%;
+    vertical-align: top;
+}
+
+.footerListItem:nth-child(1) {
+    margin-left: 1%;
+}
+
+.footerListItem:not(:last-child) {
+    padding: 2%;
+    margin-top: 1.5%;
+    border-bottom: 2px solid #234465;
+}
+
+.footerListItem:hover {
+    border-bottom: none;
+    border-top: 2px solid #234465;
+    font-weight: bold;
+}
+
+/* Link Styles */
+/* ------------------------------------------------------------------------------- */

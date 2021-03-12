@@ -48,6 +48,8 @@ class App extends Component {
 
                     <Main posts={this.getPosts()} />
                 </div>
+
+                <Footer /> 
             </div>
         );
     }
