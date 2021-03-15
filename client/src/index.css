@@ -27,3 +27,7 @@ nav .listItem:hover {
     border-bottom: 2px solid #ffa000;
     font-weight: bold;
 }
+
+.active-navigation-item {
+    background-color: lightgreen;
+}

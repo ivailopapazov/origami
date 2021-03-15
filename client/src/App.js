@@ -1,10 +1,13 @@
 import { Component } from 'react';
+import { Route, Link, NavLink, Redirect, Switch } from 'react-router-dom';
 
 import * as postService from './services/postService';
 
 import Header from './components/Header';
 import Menu from './components/Menu';
 import Main from './components/Main';
+import About from './components/About';
+import ContactUs from './components/ContactUs';
 import style from './App.module.css';
 
 class App extends Component {
@@ -22,12 +25,12 @@ class App extends Component {
     componentDidMount() {
         postService.getAll()
             .then(posts => {
-                this.setState({posts})
+                this.setState({ posts })
             });
     }
 
     onMenuItemClick(id) {
-        this.setState({selectedPost: id});
+        this.setState({ selectedPost: id });
     }
 
     getPosts() {
@@ -45,8 +48,14 @@ class App extends Component {
 
                 <div className={style.container}>
                     <Menu onMenuItemClick={this.onMenuItemClick} />
-
-                    <Main posts={this.getPosts()} />
+                    <Switch>
+                        <Route path="/" exact>
+                            <Main posts={this.getPosts()} />
+                        </Route>
+                        <Route path="/about/:name" component={About} />
+                        <Route path="/contact-us" component={ContactUs} />
+                        <Route render={() => <h1 >Error Page</h1>} />
+                    </Switch>
                 </div>
             </div>
         );
