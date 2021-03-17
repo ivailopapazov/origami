@@ -36,8 +36,8 @@ class App extends Component {
     getPosts() {
         if (!this.state.selectedPost) {
             return this.state.posts;
-        } else {
-            return [this.state.posts.find(x => x.id == this.state.selectedPost)];
+        } else {            
+            return this.state.posts.filter(x => x.id === this.state.selectedPost);
         }
     }
 
